@@ -1,0 +1,36 @@
+{
+  "manifest_version": 2,
+  "name": "Hover URL Forwarder",
+  "description":"Use Hover (http://hover.com) to forward URLs. A great, free way to have your own custom URL shortener. Extension by Arbitrary (http://arbitrary.io).",
+  "version": "1.0",
+  "homepage_url":"http://arbitrary.io",
+
+  // ----
+  "options_page":"options.html",
+
+  "icons": {
+    "16":"img/icon-16.png",
+    "19":"img/icon-19.png",
+    "32":"img/icon-32.png",
+    "38":"img/icon-38.png",
+    "48":"img/icon-48.png",
+    "128":"img/icon-128.png"
+  },
+
+  "permissions": [
+    "activeTab",
+    "http://*/*",
+    "https://*/*",
+    "tabs",
+    "clipboardWrite"
+  ],
+
+  "browser_action": {
+    "default_title": "Shorten this URL",
+    "default_popup": "main.html",
+    "default_icon": {
+      "19":"img/icon-19.png",
+      "38":"img/icon-38.png"
+    }
+  }
+}

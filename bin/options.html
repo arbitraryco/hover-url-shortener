@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hover URL Shortener | Options</title>
+
+  <link rel="stylesheet" type="text/css" href="./css/base.css">
+  <link rel="stylesheet" type="text/css" href="./css/extension.css">
+</head>
+
+<body>
+  <header>
+    <h1>Hover URL Shortener</h1>
+  </header>
+
+  <div class="options">
+    <div class="inner">
+      <div class="content">
+        <h2>Options</h2>
+        <p>You must own your domain name, be operating it through Hover and be signed in for this extension to work.</p>
+
+        <fieldset>
+          <div>
+            <label for="domain-id">Domain</label>
+            <input type="text" name="domain" id="domain" placeholder="example.com" />
+            <p>No HTTP or HTTPs. Include the TLD.</p>
+          </div>
+
+
+          <div>
+            <label for="domain-id">Domain ID</label>
+            <input type="text" name="domain-id" id="domain-id" placeholder="dom00000" />
+            <p>Get your domain ID <a href="https://www.hover.com/api/domains/" target="_blank">here.</a></p>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    Built by <a href="http://arbitrary.io" target="_blank">Arbitrary</a>.
+  </footer>
+
+  <script type="text/javascript" src="./js/model.js"></script>
+  <script type="text/javascript" src="./js/options.js"></script>
+</body>
+</html>
